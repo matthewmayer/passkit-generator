@@ -119,9 +119,9 @@ let examplePass = new Pass({
 	model: "./passModels/myFirstModel",
 	certificates: {
 		wwdr: "./certs/wwdr.pem",
-		signerCert: "./certs/signercert.pem",
+		signerCert: "./certs/signerCert.pem",
 		signerKey: {
-			keyFile: "./certs/signerkey.pem",
+			keyFile: "./certs/signerKey.pem",
 			passphrase: "123456"
 		}
 	},
